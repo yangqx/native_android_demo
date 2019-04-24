@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.example.app2.FullScreenVideoView
+        android:id="@+id/vv_play"
+        style="@style/video_view_style"
+        />
+<!--sp dp 的区别 ： sp=dp  但是，手机设置可设置 字体大小，sp可以随系统设置改变-->
+    <TextView
+        android:id="@+id/tv_splash_timer"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/shape_splash"
+        android:textSize="18sp"
+        android:layout_width="90dp"
+        android:text="跳过"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:textColor="@color/color_ffffff"
+        android:layout_height="wrap_content" />
+
+
+</FrameLayout>
